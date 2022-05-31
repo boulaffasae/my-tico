@@ -1,0 +1,7 @@
+# Main theme library.
+global:
+  js:
+    js/bee.js: {}
+  css:
+    theme:
+      dist/output.css: {}
