@@ -1,0 +1,22 @@
+uuid: 88581407-3233-4a94-9c7d-168b1db3f990
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bee
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: bee_breadcrumbs
+theme: bee
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
