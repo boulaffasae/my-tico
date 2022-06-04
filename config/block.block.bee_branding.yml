@@ -1,0 +1,25 @@
+uuid: dbfe9de0-f8c3-4ac0-a410-808176091ea9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bee
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: bee_branding
+theme: bee
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

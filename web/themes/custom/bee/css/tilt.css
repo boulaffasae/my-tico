@@ -1,0 +1,116 @@
+.site-hero-image {
+  min-height: 600px;
+  position: relative;
+}
+
+.site-hero-image figure {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  background: white;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform-origin: center;
+}
+
+.site-hero-image figure:nth-of-type(1) {
+  height: 250px;
+  left: 5%;
+  top: 0;
+  width: 250px;
+}
+
+.site-hero-image figure:nth-of-type(2) {
+  animation-delay: 0.25s;
+  height: 200px;
+  right: 0;
+  top: 225px;
+  width: 200px;
+}
+
+.site-hero-image figure:nth-of-type(3) {
+  animation-delay: 0.5s;
+  height: 150px;
+  left: 20%;
+  top: 320px;
+  width: 150px;
+}
+
+.site-hero-image figure:nth-of-type(4) {
+  animation-delay: 0.75s;
+  height: 100px;
+  right: 24%;
+  top: 490px;
+  width: 100px;
+}
+
+.site-hero-image figure:nth-of-type(5) {
+  animation-delay: 1s;
+  height: 50px;
+  left: 130px;
+  top: 500px;
+  width: 50px;
+}
+
+.site-hero-image .color-accent {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  mix-blend-mode: multiply;
+  position: absolute;
+  transform-origin: center;
+}
+
+.site-hero-image .color-accent > span {
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.site-hero-image .color-accent:nth-of-type(1) {
+  height: 125px;
+  right: 5%;
+  top: 5%;
+  width: 125px;
+}
+
+.site-hero-image .color-accent:nth-of-type(1) span {
+  animation-delay: 0.1s;
+  background: #000000;
+}
+
+.site-hero-image .color-accent:nth-of-type(2) {
+  height: 50px;
+  left: 50%;
+  top: 30%;
+  width: 50px;
+}
+
+.site-hero-image .color-accent:nth-of-type(2) span {
+  animation-delay: 0.3s;
+  background: linear-gradient(to top, #000000, #e5e7eb);
+}
+
+.site-hero-image .color-accent:nth-of-type(3) {
+  height: 80px;
+  left: 5%;
+  top: 280px;
+  width: 80px;
+}
+
+.site-hero-image .color-accent:nth-of-type(3) span {
+  animation-delay: 0.2s;
+  background: #e5e7eb;
+}
+
+.site-hero-image .color-accent:nth-of-type(4) {
+  bottom: 0;
+  height: 40px;
+  left: 40%;
+  width: 40px;
+}
+
+.site-hero-image .color-accent:nth-of-type(4) span {
+  animation-delay: 0.4s;
+  background: linear-gradient(to bottom, #000000, #e5e7eb);
+}

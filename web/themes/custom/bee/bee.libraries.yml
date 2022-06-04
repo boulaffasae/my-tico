@@ -1,0 +1,43 @@
+gsap:
+  js:
+    assets/vendor/gsap/minified/gsap.min.js: { minfied: true }
+
+swiper:
+  css:
+    theme:
+      assets/vendor/swiper/swiper-bundle.min.css: { minfied: true }
+  js:
+    assets/vendor/swiper/swiper-bundle.min.js: { minfied: true }
+
+# Main theme library.
+global:
+  js:
+    js/bee.js: {}
+  css:
+    theme:
+      css/output.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - bee/tilt
+    - bee/slider
+
+tilt:
+  js:
+    js/tilt.js: {}
+  css:
+    theme:
+      css/tilt.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/once
+    - core/jquery.once.bc
+    - bee/gsap
+
+slider:
+  js:
+    js/slider.js: {}
+  dependencies:
+    - core/drupal
+    - bee/swiper

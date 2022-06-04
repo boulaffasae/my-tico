@@ -1,0 +1,22 @@
+uuid: 2d5289ed-885a-4aff-a3a4-9fe4df686f31
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bee
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: bee_powered
+theme: bee
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
