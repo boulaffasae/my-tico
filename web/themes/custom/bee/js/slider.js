@@ -9,9 +9,12 @@
   /**
    * Behavior description.
    */
-  Drupal.behaviors.bee = {
+  Drupal.behaviors.beeSwiper = {
     attach: function (context, settings) {
-      console.log("It works!");
+      new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      });
     },
   };
 })(jQuery, Drupal);
