@@ -3988,6 +3988,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/error-handler",
             "time": "2021-09-24T13:30:14+00:00"
         },
         {
@@ -7149,16 +7150,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.13",
+            "version": "2.2.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "de11c9819ac45659fb0fafb2e704912f9994ed60"
+                "reference": "8c7a2d200bb0e66d6fafeff2f9c9a27188e52842"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/de11c9819ac45659fb0fafb2e704912f9994ed60",
-                "reference": "de11c9819ac45659fb0fafb2e704912f9994ed60",
+                "url": "https://api.github.com/repos/composer/composer/zipball/8c7a2d200bb0e66d6fafeff2f9c9a27188e52842",
+                "reference": "8c7a2d200bb0e66d6fafeff2f9c9a27188e52842",
                 "shasum": ""
             },
             "require": {
@@ -7228,7 +7229,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.2.13"
+                "source": "https://github.com/composer/composer/tree/2.2.14"
             },
             "funding": [
                 {
@@ -7244,7 +7245,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-25T19:37:25+00:00"
+            "time": "2022-06-06T14:32:50+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -8993,16 +8994,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.5.1",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "981cc368a216c988e862a75e526b6076987d1b50"
+                "reference": "3cb62d10845338136ff4ba299ab0986bbf84ba77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/981cc368a216c988e862a75e526b6076987d1b50",
-                "reference": "981cc368a216c988e862a75e526b6076987d1b50",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/3cb62d10845338136ff4ba299ab0986bbf84ba77",
+                "reference": "3cb62d10845338136ff4ba299ab0986bbf84ba77",
                 "shasum": ""
             },
             "require": {
@@ -9031,9 +9032,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.5.1"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.6.0"
             },
-            "time": "2022-05-05T11:32:40+00:00"
+            "time": "2022-06-09T09:45:59+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
