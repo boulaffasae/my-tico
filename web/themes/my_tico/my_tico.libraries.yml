@@ -1,24 +1,47 @@
+gsap:
+  js:
+    assets/vendor/gsap/gsap.min.js: { minfied: true }
+
+swiper:
+  css:
+    theme:
+      assets/vendor/swiper/swiper-bundle.min.css: { minfied: true }
+  js:
+    assets/vendor/swiper/swiper-bundle.min.js: { minfied: true }
+
+animate.css:
+  css:
+    theme:
+      assets/vendor/animate.css/animate.min.css: { minfied: true }
+
 # Main theme library.
 global:
-  js:
-    js/my-tico.js: {}
   css:
-    base:
-      css/base/elements.css: {}
-    component:
-      css/components/block.css: {}
-      css/components/breadcrumb.css: {}
-      css/components/field.css: {}
-      css/components/form.css: {}
-      css/components/header.css: {}
-      css/components/menu.css: {}
-      css/components/messages.css: {}
-      css/components/node.css: {}
-      css/components/sidebar.css: {}
-      css/components/table.css: {}
-      css/components/tabs.css: {}
-      css/components/buttons.css: {}
-    layout:
-      css/layouts/layout.css: {}
     theme:
-      css/theme/print.css: { media: print }
+      css/output.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - my_tico/tilt
+    - my_tico/slider
+    - my_tico/animate.css
+
+tilt:
+  js:
+    js/tilt.js: {}
+  css:
+    theme:
+      css/tilt.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/once
+    - core/jquery.once.bc
+    - my_tico/gsap
+
+slider:
+  js:
+    js/slider.js: {}
+  dependencies:
+    - core/drupal
+    - my_tico/swiper

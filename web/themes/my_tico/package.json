@@ -1,10 +1,8 @@
 {
-  "name": "my_tico",
-  "private": true,
   "scripts": {
-    "livereload": "livereload css"
+    "watch": "tailwindcss -i ./styles/input.css -o ./css/output.css --watch"
   },
   "devDependencies": {
-    "livereload": "^0.9.3"
+    "tailwindcss": "^3.0.24"
   }
 }
