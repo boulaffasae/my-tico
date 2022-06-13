@@ -1,0 +1,22 @@
+uuid: 2b817324-886a-4b09-83d0-76756aaa23db
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - my_tico
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: my_tico_help
+theme: my_tico
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

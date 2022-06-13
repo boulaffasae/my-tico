@@ -1,0 +1,22 @@
+uuid: 2f3bef83-a4f4-4bde-897d-8acbb86e99e1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - my_tico
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: my_tico_local_tasks
+theme: my_tico
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: d6ef9a59-7ba7-4884-afb5-73b45a6c76a3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - my_tico
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: my_tico_page_title
+theme: my_tico
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
