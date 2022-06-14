@@ -1,0 +1,18 @@
+uuid: ff82d897-4887-411b-95fc-48cc28da83d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Teacher
+type: teacher
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

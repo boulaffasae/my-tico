@@ -1,0 +1,19 @@
+uuid: 6d1ba532-129b-407f-b864-07f64c887ad7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.class
+id: node.class.field_date
+field_name: field_date
+entity_type: node
+bundle: class
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

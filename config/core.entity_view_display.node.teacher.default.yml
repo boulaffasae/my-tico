@@ -1,0 +1,46 @@
+uuid: 419f4bc1-2ae1-4be2-b404-399c9dc4fc88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.teacher.body
+    - field.field.node.teacher.field_category
+    - field.field.node.teacher.field_media_image
+    - node.type.teacher
+  module:
+    - text
+    - user
+id: node.teacher.default
+targetEntityType: node
+bundle: teacher
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_media_image:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
