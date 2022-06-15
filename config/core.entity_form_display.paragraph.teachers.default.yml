@@ -1,0 +1,25 @@
+uuid: d7e19887-d42d-4323-8c32-fe54c5c45d42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.teachers.field_teachers
+    - paragraphs.paragraphs_type.teachers
+id: paragraph.teachers.default
+targetEntityType: paragraph
+bundle: teachers
+mode: default
+content:
+  field_teachers:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

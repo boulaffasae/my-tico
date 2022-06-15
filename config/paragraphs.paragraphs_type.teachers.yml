@@ -1,0 +1,10 @@
+uuid: 39921c2a-c2f3-4875-915f-e561f8ffab68
+langcode: en
+status: true
+dependencies: {  }
+id: teachers
+label: Teachers
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

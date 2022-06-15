@@ -1,0 +1,22 @@
+uuid: de906d94-3bdd-4c03-938d-5ac5d3e2dbf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.classes.field_classes
+    - paragraphs.paragraphs_type.classes
+id: paragraph.classes.default
+targetEntityType: paragraph
+bundle: classes
+mode: default
+content:
+  field_classes:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

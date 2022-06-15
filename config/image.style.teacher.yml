@@ -1,0 +1,15 @@
+uuid: 11c1addb-0a03-49f4-9030-3786f53d87c8
+langcode: en
+status: true
+dependencies: {  }
+name: teacher
+label: 'Teacher (400×600)'
+effects:
+  9b7fe062-3bde-4e7a-a44a-bdc77151e992:
+    uuid: 9b7fe062-3bde-4e7a-a44a-bdc77151e992
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 600
+      anchor: center-center

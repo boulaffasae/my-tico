@@ -1,0 +1,10 @@
+uuid: 9fa63b6a-4572-460e-b4b0-585c368f0145
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.rounded
+label: Rounded
+targetEntityType: media
+cache: true

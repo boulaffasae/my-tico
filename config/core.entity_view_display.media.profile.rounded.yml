@@ -1,0 +1,30 @@
+uuid: e5858db8-d212-4624-92d3-2f1bb2fb3b67
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.rounded
+    - field.field.media.profile.field_media_image_1
+    - image.style.rounded
+    - media.type.profile
+  module:
+    - image
+id: media.profile.rounded
+targetEntityType: media
+bundle: profile
+mode: rounded
+content:
+  field_media_image_1:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: rounded
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.teacher.field_media_image
     - node.type.teacher
   module:
+    - media_library
     - path
     - text
 id: node.teacher.default
@@ -42,14 +43,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_media_image:
-    type: entity_reference_autocomplete
+    type: media_library_widget
     weight: 122
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      media_types: {  }
     third_party_settings: {  }
   path:
     type: path

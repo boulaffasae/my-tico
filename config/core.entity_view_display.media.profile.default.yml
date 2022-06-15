@@ -1,0 +1,29 @@
+uuid: 1514be02-a141-43e5-a558-dfbb3c63cde7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.profile.field_media_image_1
+    - image.style.teacher
+    - media.type.profile
+  module:
+    - image
+id: media.profile.default
+targetEntityType: media
+bundle: profile
+mode: default
+content:
+  field_media_image_1:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: teacher
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true
