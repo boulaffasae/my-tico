@@ -1,15 +1,15 @@
-uuid: 586a5cbb-f244-4d7d-94b6-a1cebc717bb2
+uuid: b927c2aa-7546-4efc-839e-ecf3d6faf4f8
 langcode: en
 status: true
 dependencies:
   theme:
-    - my_tico
+    - claro
 _core:
-  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
-id: my_tico_local_actions
-theme: my_tico
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: claro_local_actions
+theme: claro
 region: content
-weight: -20
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

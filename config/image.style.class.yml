@@ -1,0 +1,15 @@
+uuid: 07ad6133-cebc-41ec-9789-74d5ce43ba88
+langcode: en
+status: true
+dependencies: {  }
+name: class
+label: 'Class (600×400)'
+effects:
+  21055dcc-1511-4620-9258-b6af2fe4a930:
+    uuid: 21055dcc-1511-4620-9258-b6af2fe4a930
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 400
+      anchor: center-center

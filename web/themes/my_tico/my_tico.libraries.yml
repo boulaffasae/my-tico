@@ -23,7 +23,6 @@ global:
     - core/jquery
     - core/drupal
     - my_tico/tilt
-    - my_tico/slider
     - my_tico/animate.css
 
 tilt:
@@ -39,9 +38,9 @@ tilt:
     - core/jquery.once.bc
     - my_tico/gsap
 
-slider:
+teachers:
   js:
-    js/slider.js: {}
+    js/teachers.js: {}
   dependencies:
     - core/drupal
     - my_tico/swiper

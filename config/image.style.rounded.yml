@@ -1,0 +1,15 @@
+uuid: cae20a7a-ceec-4837-8347-e032682d5238
+langcode: en
+status: true
+dependencies: {  }
+name: rounded
+label: 'Rounded (150×150)'
+effects:
+  da95e962-a75e-4b82-bc71-c094dbafed95:
+    uuid: da95e962-a75e-4b82-bc71-c094dbafed95
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center

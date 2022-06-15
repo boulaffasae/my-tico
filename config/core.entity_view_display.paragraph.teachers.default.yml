@@ -1,0 +1,22 @@
+uuid: 1a2eaebb-0b53-4bbc-918f-aaaa55e493d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.teachers.field_teachers
+    - paragraphs.paragraphs_type.teachers
+id: paragraph.teachers.default
+targetEntityType: paragraph
+bundle: teachers
+mode: default
+content:
+  field_teachers:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

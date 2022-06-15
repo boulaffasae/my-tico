@@ -1,0 +1,25 @@
+uuid: 71fd3878-7f3d-439d-b367-00aa4e00c771
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.classes.field_classes
+    - paragraphs.paragraphs_type.classes
+id: paragraph.classes.default
+targetEntityType: paragraph
+bundle: classes
+mode: default
+content:
+  field_classes:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
