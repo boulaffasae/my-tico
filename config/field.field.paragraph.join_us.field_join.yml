@@ -1,0 +1,32 @@
+uuid: d8b1f0d6-081f-4ee5-ab5d-df064264ee69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_join
+    - paragraphs.paragraphs_type.join_us
+    - webform.webform.join
+  module:
+    - webform
+id: paragraph.join_us.field_join
+field_name: field_join
+entity_type: paragraph
+bundle: join_us
+label: Join
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 4a99eb65-56a6-4bb1-85da-76f82205b896
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

@@ -1,0 +1,10 @@
+uuid: 42fc4d4f-15cf-40b0-854e-c1b4ec58ec9d
+langcode: en
+status: true
+dependencies: {  }
+id: container
+label: Container
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

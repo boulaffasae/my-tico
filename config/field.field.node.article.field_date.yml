@@ -1,0 +1,19 @@
+uuid: cdb98f72-92d5-43bc-95ed-a96f787b0107
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.article
+id: node.article.field_date
+field_name: field_date
+entity_type: node
+bundle: article
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

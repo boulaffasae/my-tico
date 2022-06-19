@@ -1,0 +1,55 @@
+uuid: 97ee4b15-a96c-49cd-a4ac-7cde78cbaa88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.field_address
+    - field.field.node.event.field_date
+    - field.field.node.event.field_price
+    - field.field.node.event.field_time
+    - node.type.event
+  module:
+    - user
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  field_address:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_date:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_price:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_time:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

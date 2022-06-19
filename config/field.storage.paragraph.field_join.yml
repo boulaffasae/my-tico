@@ -1,0 +1,20 @@
+uuid: 4060be57-6146-496a-8349-4e60ee2b3d59
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - webform
+id: paragraph.field_join
+field_name: field_join
+entity_type: paragraph
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

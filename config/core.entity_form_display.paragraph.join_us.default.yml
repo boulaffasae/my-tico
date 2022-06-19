@@ -1,0 +1,25 @@
+uuid: 90374bb2-1d1b-4160-9fa5-4616c30262fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.join_us.field_join
+    - paragraphs.paragraphs_type.join_us
+  module:
+    - webform
+id: paragraph.join_us.default
+targetEntityType: paragraph
+bundle: join_us
+mode: default
+content:
+  field_join:
+    type: webform_entity_reference_select
+    weight: 0
+    region: content
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,21 @@
+uuid: 303d8aa5-3c93-4e42-8c2f-d25a715d30c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.events.field_events
+    - paragraphs.paragraphs_type.events
+id: paragraph.events.default
+targetEntityType: paragraph
+bundle: events
+mode: default
+content:
+  field_events:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
