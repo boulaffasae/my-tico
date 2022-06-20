@@ -1,0 +1,15 @@
+uuid: 5538e822-0317-47e8-96ca-24dc72a69a25
+langcode: en
+status: true
+dependencies: {  }
+name: article
+label: "Article (120×80)\t"
+effects:
+  7734159c-a805-44c9-b844-51d19fd8402d:
+    uuid: 7734159c-a805-44c9-b844-51d19fd8402d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 120
+      height: 80
+      anchor: center-center

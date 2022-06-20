@@ -3,12 +3,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        accent: "#61CE70",
+        accent: "#FDC12A",
         divider: "#C9E2F8",
         primary: "#F37335",
         secondary: "#135E9E",
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };

@@ -39,15 +39,13 @@
 #}
 {%
   set classes = [
-    'max-w-6xl',
-    'mx-auto',
+    'sm:flex',
+    '-mx-4',
   ]
 %}
 
 <div{{attributes.addClass(classes)}}>
-	<div class="flex -mx-4">
-		{% for item in items %}
-			<div{{item.attributes.addClass('px-4')}}>{{ item.content }}</div>
-		{% endfor %}
-	</div>
+	{% for item in items %}
+		<div{{item.attributes.addClass('px-4', 'mb-4')}}>{{ item.content }}</div>
+	{% endfor %}
 </div>

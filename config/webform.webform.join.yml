@@ -16,12 +16,22 @@ elements: |-
   name:
     '#type': textfield
     '#title': Name
+    '#title_display': invisible
+    '#placeholder': 'Your name'
   email:
     '#type': textfield
     '#title': Email
+    '#title_display': invisible
+    '#placeholder': 'Your email'
   message:
     '#type': textarea
     '#title': Message
+    '#title_display': invisible
+    '#placeholder': 'Your message'
+  actions:
+    '#type': webform_actions
+    '#title': 'Submit button(s)'
+    '#submit__label': 'Send a message'
 css: ''
 javascript: ''
 settings:

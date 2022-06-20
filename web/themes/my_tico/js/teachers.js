@@ -12,8 +12,18 @@
   Drupal.behaviors.my_tico_teachers = {
     attach: function (context, settings) {
       new Swiper(".teachers--swiper", {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 30,
+
+        breakpoints: {
+          1023: {
+            slidesPerView: 3,
+          },
+
+          639: {
+            slidesPerView: 2,
+          },
+        },
 
         // Navigation arrows
         navigation: {

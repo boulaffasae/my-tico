@@ -40,20 +40,18 @@
 {{ attach_library('my_tico/teachers') }}
 {%
   set classes = [
-    'max-w-6xl',
-    'mx-auto',
+    'teachers--swiper',
+    'swiper',
   ]
 %}
 
-<div{{ attributes.addClass(classes) }}>
-  <div class="teachers--swiper swiper">
-    <div class="swiper-wrapper">
-      {% for item in items %}
-        <div{{ item.attributes.addClass('swiper-slide') }}>{{ item.content }}</div>
-      {% endfor %}
-    </div>
+<div{{attributes.addClass(classes)}}>
+	<div class="swiper-wrapper">
+		{% for item in items %}
+			<div{{item.attributes.addClass('swiper-slide')}}>{{ item.content }}</div>
+		{% endfor %}
+	</div>
 
-    <div class="teachers-swiper-button-prev"></div>
-    <div class="teachers-swiper-button-next"></div>
-  </div>
+	<div class="teachers-swiper-button-prev"></div>
+	<div class="teachers-swiper-button-next"></div>
 </div>

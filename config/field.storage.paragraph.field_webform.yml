@@ -1,12 +1,12 @@
-uuid: 4060be57-6146-496a-8349-4e60ee2b3d59
+uuid: 354ab12d-d372-4877-b804-491040bd3fed
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
     - webform
-id: paragraph.field_join
-field_name: field_join
+id: paragraph.field_webform
+field_name: field_webform
 entity_type: paragraph
 type: webform
 settings:

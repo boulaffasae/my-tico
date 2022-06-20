@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.classes.field_classes
+    - field.field.paragraph.classes.field_heading
     - paragraphs.paragraphs_type.classes
+  module:
+    - text
 id: paragraph.classes.default
 targetEntityType: paragraph
 bundle: classes
@@ -12,10 +15,17 @@ mode: default
 content:
   field_classes:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_heading:
+    type: text_default
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content

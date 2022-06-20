@@ -1,20 +1,20 @@
-uuid: 7cd53521-1845-40bd-b5a7-e273fb50e3cd
+uuid: 5214cfeb-55ec-4031-8854-bf3abba13192
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_heading
-    - paragraphs.paragraphs_type.heading
+    - paragraphs.paragraphs_type.webform
   module:
     - text
-id: paragraph.heading.field_heading
+id: paragraph.webform.field_heading
 field_name: field_heading
 entity_type: paragraph
-bundle: heading
+bundle: webform
 label: Heading
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

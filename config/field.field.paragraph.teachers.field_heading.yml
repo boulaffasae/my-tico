@@ -1,0 +1,21 @@
+uuid: d20a3f58-f1ea-41e7-9c61-9da3165c7d43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.teachers
+  module:
+    - text
+id: paragraph.teachers.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: teachers
+label: Heading
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

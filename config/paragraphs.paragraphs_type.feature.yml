@@ -1,9 +1,9 @@
-uuid: d2d771f3-762e-4ba9-8dd5-1b849fce0eb3
+uuid: 70ec0c77-1618-4889-8b77-19891dd530d9
 langcode: en
 status: true
 dependencies: {  }
-id: join_us
-label: 'Join us'
+id: feature
+label: Feature
 icon_uuid: null
 icon_default: null
 description: ''

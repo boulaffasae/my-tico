@@ -1,0 +1,21 @@
+uuid: ae3bcaaf-1737-43b9-8f6f-3602ea54829e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.classes
+  module:
+    - text
+id: paragraph.classes.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: classes
+label: Heading
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
