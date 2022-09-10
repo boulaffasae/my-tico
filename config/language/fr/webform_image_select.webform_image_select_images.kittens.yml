@@ -1,0 +1,3 @@
+label: 'Chatons trop mignons'
+category: Animaux
+images: "kitten_1:\r\n  text: 'Chat Mignon 1'\r\n  src: 'http://placekitten.com/220/200'\r\nkitten_2:\r\n  text: 'Chat Mignon 2'\r\n  src: 'http://placekitten.com/180/200'\r\nkitten_3:\r\n  text: 'Chat Mignon 3'\r\n  src: 'http://placekitten.com/130/200'\r\nkitten_4:\r\n  text: 'Chat Mignon 4'\r\n  src: 'http://placekitten.com/270/200'\n"

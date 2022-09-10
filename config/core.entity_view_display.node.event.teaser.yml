@@ -26,3 +26,4 @@ hidden:
   field_date: true
   field_price: true
   field_time: true
+  langcode: true

@@ -32,3 +32,4 @@ content:
 hidden:
   body: true
   field_category: true
+  langcode: true

@@ -26,3 +26,4 @@ hidden:
   comment: true
   field_media_image: true
   field_tags: true
+  langcode: true
