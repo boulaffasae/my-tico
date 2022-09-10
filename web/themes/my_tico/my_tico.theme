@@ -52,3 +52,14 @@ function my_tico_preprocess_links__language_block(&$variables) {
     $variables['links'][$key]['link']['#options']['attributes']['class'][] = 'hover:text-primary';
   }
 }
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for form.html.twig.
+ */
+function my_tico_theme_suggestions_form_alter(array &$suggestions, array $variables) {
+  $id = $variables['element']['#id'];
+  $user = ['user-login-form', 'user-pass'];
+  if (in_array($id, $user)) {
+    $suggestions[] = 'form__user';
+  }
+}

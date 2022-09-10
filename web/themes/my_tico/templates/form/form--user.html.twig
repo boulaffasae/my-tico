@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * Theme override for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+<div class="max-w-6xl m-16 px-8 mx-auto">
+  <div class="md:flex bg-gradient-to-r from-primary to-accent md:p-16 p-8 rounded-3xl items-center overflow-hidden">
+    <form{{ attributes }}>
+      {{ children }}
+    </form>
+  </div>
+</div>
