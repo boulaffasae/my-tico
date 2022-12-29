@@ -114,3 +114,70 @@
   animation-delay: 0.4s;
   background: linear-gradient(to bottom, #000000, #e5e7eb);
 }
+
+.subscription {
+  background: linear-gradient(225deg, #fdc12a, #f37335);
+  border-radius: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+
+.subscription .webform-submission-inscription-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.subscription .webform-submission-inscription-form .form-item {
+  max-width: calc( 50% - 1rem );
+}
+
+.subscription .webform-submission-inscription-form .form-type-processed-text h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subscription .webform-submission-inscription-form .form-type-select {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.subscription .webform-submission-inscription-form .form-select {
+  background: white;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+
+.subscription .webform-submission-inscription-form .form-item input {
+  background: white;
+  border: 2px solid white;
+}
+
+.subscription .webform-submission-inscription-form .form-item {
+  width: 50%;
+}
+
+.subscription .webform-submission-inscription-form .form-type-processed-text {
+  max-width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.btn-default {
+  display: inline-block;
+  border: 2px solid #f37335;
+  color: #f37335 !important;
+  background: transparent;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  font-size: 1rem;
+  border-radius: 2rem;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  height: 2.75rem;
+  line-height: calc( 2.75rem - 4px );
+  padding: 0 2rem;
+}
