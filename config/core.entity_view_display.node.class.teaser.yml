@@ -10,24 +10,70 @@ dependencies:
     - field.field.node.class.field_price
     - field.field.node.class.field_teacher
     - field.field.node.class.field_time
+    - image.style.class_teaser
     - node.type.class
   module:
+    - media
+    - text
     - user
 id: node.class.teaser
 targetEntityType: node
 bundle: class
 mode: teaser
 content:
-  links:
-    settings: {  }
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_date:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_media_image:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: class_teaser
     third_party_settings: {  }
     weight: 0
     region: content
+  field_price:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_teacher:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_time:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
 hidden:
-  body: true
-  field_date: true
-  field_media_image: true
-  field_price: true
-  field_teacher: true
-  field_time: true
   langcode: true

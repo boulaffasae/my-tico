@@ -1,0 +1,15 @@
+uuid: b71be35c-345f-45d0-b5a3-915bc7d515bf
+langcode: en
+status: true
+dependencies: {  }
+name: class_teaser
+label: 'Class teaser'
+effects:
+  7a8c666e-cc80-4ef7-935d-6c05aa696a0c:
+    uuid: 7a8c666e-cc80-4ef7-935d-6c05aa696a0c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 353
+      height: 235
+      anchor: center-center
